@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <header class="header_section">
+
+      <div id="mobile_menu_bar" ><i onclick="handleClick()" class="fa fa-bars" aria-hidden="true"></i></div>
+
+        <a class="logo" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>Let's Travel</a>
+
+        <nav class="navbar_content navbar_content_hide">
+            <a href="home">HOME</a>
+            <a href="service">SERVICE</a>
+            <a href="about">ABOUT</a>
+            <a href="gallery">GALLERY</a>
+            <a href="destination">DESTINATION</a>
+            <a href="blog">BLOG</a>
+            <a href="achievement">ACHIEVEMENT</a>
+            <a href="#">LOGIN</a>
+        </nav>
+
+         <a class="book_button" href="book-button">BOOK NOW</a>
+
+    </header>
+    <section class="mid_content_section">
+        <div class="mid_content">
+            <span>Plan Your Vacation</span>
+            <h3>Let's Travel</h3>
+            <p>Choose one of our unique tour packages and discover the breathtaking places of World.</p>
+             <a href="" class="book_button" style="margin: 11px auto 17px 21px;border: 3px solid #29d9d5;">BOOK NOW </a>
+        </div>
+
+    </section>
+      
+    <section class="form" id="formid">
+        <div class="inputFrom">
+            <span>FROM</span>
+            <input type="text" placeholder="From Where">
+        </div>
+        <div class="inputFrom">
+            <span>Select Date</span>
+            <input type="date" placeholder="Select Date">
+        </div>
+        <div class="inputFrom">
+            <span>Members</span>
+            <input type="number" placeholder="How many members">
+        </div>
+        <div class="inputFrom">
+            <span>Destination</span>
+            <input type="text" placeholder="Destination">
+        </div>
+        <input type="button" value="Submit" id="formButton" class="book_button">
+    </section>
+
+    <section id="about" class="about">
+        <div class="video-container">
+            <video class="video" src="video1.mp4" muted autoplay loop ></video>
+            <div class="controls">
+                <span class="control-btn" data-src="video1.mp4"></span>
+                <span class="control-btn" data-src="video.mp4"></span>
+                <span class="control-btn" data-src="video2.mp4"></span>
+            </div>
+        </div>
+        <div class="content">
+            <span>Let's Have a <strong style="color:#fff;font-size: 26px;">Ride</strong> With Us </span>
+            <h3>Nature Calling You</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo et magnam neque, obcaecati ipsa.</p>
+            <a href="#" class="book_button">read more</a>
+        </div>
+
+
+    </section>
+    
+</body>
+<script src="js.js"></script>
+
+</html>
